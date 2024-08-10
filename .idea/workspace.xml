@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5973f9b9-37f9-44e5-9bf5-e1116366e0cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/DataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/DataProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/EventListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/LightningPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/Requests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/ThreadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/commands/BalanceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/commands/CheckCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/commands/LightningCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/commands/PayCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/commands/ReceiveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/database/Mongo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/database/MongoUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/responses/CheckResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/responses/PayResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/responses/ReceiveResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/responses/UserManagerCreateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bongbong/lightning/responses/WalletInfoResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
