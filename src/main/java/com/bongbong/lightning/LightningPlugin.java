@@ -24,7 +24,7 @@ public class LightningPlugin extends JavaPlugin {
     // example:
     // export HOST_BASE_URL_LNBIT="https://wallet.example.com"
     // export HOST_ADMIN_KEY_LNBIT="adminaccountlnbitadminkey"
-    // export HOST_INVOICE_KEY_LNBI="adminaccountlnbitinvoicekey"
+    // export HOST_INVOICE_KEY_LNBIT="adminaccountlnbitinvoicekey"
     //
     // you must have UserManager installed on your LNBits node.
     // mongodb installed is also a requirement. bind it to 127.0.0.1 in /etc/mongod.conf
