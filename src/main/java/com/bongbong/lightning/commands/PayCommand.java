@@ -4,6 +4,7 @@ import co.aikar.commands.BaseCommand;
 import co.aikar.commands.annotation.CommandAlias;
 import co.aikar.commands.annotation.Description;
 import co.aikar.commands.annotation.Subcommand;
+import co.aikar.commands.annotation.Syntax;
 import com.bongbong.lightning.DataManager;
 import com.bongbong.lightning.DataProfile;
 import com.bongbong.lightning.Requests;
@@ -25,20 +26,18 @@ public class PayCommand extends BaseCommand {
     final Requests requests;
 
     @Subcommand("pay|send")
+    @Syntax("<target> <amount>")
     @Description("Pay another player (online or offline)")
     public void onPay(CommandSender sender, OfflinePlayer player, int amount) {
 
     }
 
     @Subcommand("lnpay|lightningpay|lnsend|lightningsend")
+    @Syntax("<bolt11>")
     @Description("Pay a lightning BOLT11 invoice.")
     public void onLightnningPay(Player player, String bolt11) {
         UUID uuid = player.getUniqueId();
 
-        if (bolt11 == null) {
-            player.sendMessage("Usage: /ln lnpay <bolt11>");
-            return;
-        }
 
         threadUtil.runTask(true, () -> {
             DataProfile profile;

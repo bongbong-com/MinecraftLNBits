@@ -1,5 +1,5 @@
 name: Lightning
 description: Plugin interface for LNBits node/user management software.
 version: ${lightning.desc}
-author: Theo Bong
+author: tigerbong
 main: com.bongbong.lightning.LightningPlugin

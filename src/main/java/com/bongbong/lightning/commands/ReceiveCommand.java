@@ -1,10 +1,7 @@
 package com.bongbong.lightning.commands;
 
 import co.aikar.commands.BaseCommand;
-import co.aikar.commands.annotation.CommandAlias;
-import co.aikar.commands.annotation.Description;
-import co.aikar.commands.annotation.Optional;
-import co.aikar.commands.annotation.Subcommand;
+import co.aikar.commands.annotation.*;
 import com.bongbong.lightning.DataManager;
 import com.bongbong.lightning.DataProfile;
 import com.bongbong.lightning.Requests;
@@ -26,14 +23,10 @@ public class ReceiveCommand extends BaseCommand {
 
 
     @Subcommand("createinvoice|receive|request")
+    @Syntax("<amount> [memo]")
     @Description("Receive payment by generating an invoice")
     public void onRequest(Player player, int amount, @Optional String memo) {
         UUID uuid = player.getUniqueId();
-
-        if (amount == 0) {
-            player.sendMessage("Usage: /ln createinvoice <amount> [memo]");
-            return;
-        }
 
         threadUtil.runTask(true, () -> {
             DataProfile profile;
